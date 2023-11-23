@@ -70,7 +70,7 @@ class _LoginPageState extends State<LoginPage> {
                 // To connect the Android emulator to Django on localhost,
                 // use the URL http://10.0.2.2/
                 final response = await request.login(
-                    "http://alfian-fadhlurrahman-tutorial.pbp.cs.ui.ac.id/auth/login/",
+                    "https://alfian-fadhlurrahman-tutorial.pbp.cs.ui.ac.id/auth/login/",
                     {
                       'username': username,
                       'password': password,

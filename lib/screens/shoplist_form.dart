@@ -124,7 +124,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
                       // Send request to Django and wait for the response
                       // TODO: Change the URL to your Django app's URL. Don't forget to add the trailing slash (/) if needed.
                       final response = await request.postJson(
-                          "http://alfian-fadhlurrahman-tutorial.pbp.cs.ui.ac.id/create-flutter/",
+                          "https://alfian-fadhlurrahman-tutorial.pbp.cs.ui.ac.id/create-flutter/",
                           jsonEncode(<String, String>{
                             'name': _name,
                             'price': _price.toString(),
